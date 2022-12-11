@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <NeutralLanguage>en</NeutralLanguage>
-    <RepositoryUrl>https://github.com/rosenbjerg/FFMpegCore</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/rosenbjerg/FFMpegCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ep1kt3t0s/FFMpegCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ep1kt3t0s/FFMpegCore</PackageProjectUrl>
     <Copyright></Copyright>
     <Description>A .NET Standard FFMpeg/FFProbe wrapper for easily integrating media analysis and conversion into your .NET applications</Description>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -19,7 +19,7 @@
 - Updates to dependendies
 - A lot of bug fixes</PackageReleaseNotes>
     <LangVersion>8</LangVersion>
-    <PackageVersion>4.8.0</PackageVersion>
+    <PackageVersion>4.8.1</PackageVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Malte Rosenbjerg, Vlad Jerca, Max Bagryantsev</Authors>
     <PackageTags>ffmpeg ffprobe convert video audio mediafile resize analyze muxing</PackageTags>
@@ -27,6 +27,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Nullable>enable</Nullable>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>FFMpegCore-ep1kt3t0s</AssemblyName>
+    <RootNamespace>FFMpegCore-ep1kt3t0s</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
